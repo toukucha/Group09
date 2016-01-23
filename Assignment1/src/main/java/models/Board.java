@@ -83,7 +83,6 @@ public class Board {
         state[x][y] = z.printCard();
     }
 
-
     public String getCardOnBoard (int x, int y) {
         return state[x][y];
     }
@@ -94,7 +93,6 @@ public class Board {
         cardLayout[c1][0] = theDeck.drawTop();
         cardLayout[c2][0] = theDeck.drawTop();
         cardLayout[c3][0] = theDeck.drawTop();
-
 
         incC0();
         incC1();
